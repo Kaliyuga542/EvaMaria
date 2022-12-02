@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/akrcreation2/EvaMaria.git /Knmlpro2
+  git clone https://github.com/Kaliyuga542/EvaMaria.git /Knmlpro2
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Knmlpro2
